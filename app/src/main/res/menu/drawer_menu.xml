@@ -4,30 +4,65 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
+
+
         <item
-            android:id="@+id/nav_message"
-            android:icon="@drawable/ic_message"
-            android:title="Message" />
+            android:id="@+id/nav_FirstAid"
+            android:icon="@drawable/ic_announcement"
+            android:iconTint="@color/colorPrimary"
+            android:title="What is First Aid?" />
+
         <item
-            android:id="@+id/nav_chat"
-            android:icon="@drawable/ic_chat"
-            android:title="Chat" />
+            android:id="@+id/nav_Injuries"
+            android:icon="@drawable/ic_face"
+            android:iconTint="@color/colorPrimary"
+            android:title="Disaster Related Injuries" />
+
         <item
-            android:id="@+id/nav_profile"
-            android:icon="@drawable/ic_profile"
-            android:title="Profile" />
+            android:id="@+id/nav_LiftsCarries"
+            android:icon="@drawable/ic_directions_run"
+            android:iconTint="@color/colorPrimary"
+            android:title="Lifts and Carries" />
+
+        <item
+            android:id="@+id/nav_Bandage"
+            android:icon="@drawable/ic_local_hospital"
+            android:iconTint="@color/colorPrimary"
+            android:title="Bandage Styles" />
+
+        <item
+            android:id="@+id/nav_CPR"
+            android:icon="@drawable/ic_favorite"
+            android:iconTint="@color/colorPrimary"
+            android:title="Perform CPR" />
+
+        <item
+            android:id="@+id/nav_HourKit"
+            android:icon="@drawable/ic_work"
+            android:iconTint="@color/colorPrimary"
+            android:title="72 Hour Kit Contents" />
+
+        <item
+            android:id="@+id/nav_LocalNo"
+            android:icon="@drawable/ic_local_phone"
+            android:iconTint="@color/colorPrimary"
+            android:title="Emergency Local Numbers" />
+
     </group>
 
-    <item android:title="Communicate">
+
+    <item android:title="Extras">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_share"
-                android:title="Share" />
+                android:id="@+id/nav_About"
+                android:icon="@drawable/ic_info24dp"
+                android:iconTint="@color/colorPrimary"
+                android:title="About The App" />
+
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_send"
-                android:title="Send" />
+                android:id="@+id/nav_Message"
+                android:icon="@drawable/ic_record_voice"
+                android:title="Message" />
         </menu>
     </item>
 

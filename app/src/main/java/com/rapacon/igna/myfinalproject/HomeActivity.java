@@ -33,31 +33,56 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                    new MessageFragment()).commit();
-            navigationView.setCheckedItem(R.id.nav_message);
+                    new WhatIsFirstAid()).commit();
+            navigationView.setCheckedItem(R.id.nav_FirstAid);
         }
     }
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.nav_message:
+            case R.id.nav_FirstAid:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new MessageFragment()).commit();
+                        new WhatIsFirstAid()).commit();
                 break;
-            case R.id.nav_chat:
+
+            case R.id.nav_Injuries:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new ChatFragment()).commit();
+                        new DisasterRelatedInjuries()).commit();
                 break;
-            case R.id.nav_profile:
+
+            case R.id.nav_LiftsCarries:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
-                        new ProfileFragment()).commit();
+                        new LiftsAndCarries()).commit();
                 break;
-            case R.id.nav_share:
-                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
+
+            case R.id.nav_Bandage:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new BandageStyles()).commit();
                 break;
-            case R.id.nav_send:
-                Toast.makeText(this, "Send", Toast.LENGTH_SHORT).show();
+
+            case R.id.nav_CPR:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new PerformCPR()).commit();
+                break;
+
+            case R.id.nav_HourKit:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new SeventyTwoHourKit()).commit();
+                break;
+
+            case R.id.nav_LocalNo:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new EmergencyLocalNumbers()).commit();
+                break;
+
+            case R.id.nav_About:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new AboutTheApp()).commit();
+                break;
+
+            case R.id.nav_Message:
+                Toast.makeText(this, "Welcome to PLUS!", Toast.LENGTH_SHORT).show();
                 break;
         }
 
