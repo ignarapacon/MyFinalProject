@@ -16,18 +16,18 @@
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp" />
 
-    <ScrollView
+    <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
             <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="425dp"
+                android:layout_width="325dp"
+                android:layout_height="450dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
@@ -52,7 +52,7 @@
                         <TextView
                             android:id="@+id/textView63d"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="20dp"
                             android:layout_weight="1"
                             android:paddingLeft="10dp"
                             android:text="1. CALL"
@@ -64,6 +64,7 @@
                             android:id="@+id/textView630d"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_gravity="top"
                             android:layout_weight="1"
                             android:paddingLeft="10dp"
                             android:text="Check the victim for unresponsiveness. If the person is not responsive and not breathing or not breathing normally. Call 911 and return to the victim. If possible bring the phone next to the person and place on speaker mode. In most locations the emergency dispatcher can assist you with CPR instructions."
@@ -75,8 +76,8 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="350dp"
+                android:layout_width="325dp"
+                android:layout_height="450dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
@@ -95,14 +96,17 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="400dp"
                         android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/textView63A"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="5dp"
+                            android:layout_gravity="top"
                             android:layout_weight="1"
+                            android:foregroundGravity="top"
+                            android:gravity="top"
                             android:paddingLeft="10dp"
                             android:text="2. PUMP"
                             android:textColor="@color/colorPrimaryDark"
@@ -113,7 +117,10 @@
                             android:id="@+id/textView630A"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_gravity="top"
                             android:layout_weight="1"
+                            android:foregroundGravity="top"
+                            android:gravity="top"
                             android:paddingLeft="10dp"
                             android:text="If the victim is still not breathing normally, coughing or moving, begin chest compressions.  Push down in the center of the chest 2-2.4 inches 30 times. Pump hard and fast at the rate of 100-120/minute, faster than once per second."
                             android:textColor="@color/colorPrimaryDark" />
@@ -124,8 +131,8 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="270dp"
+                android:layout_width="325dp"
+                android:layout_height="450dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
@@ -144,7 +151,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="290dp"
                         android:orientation="vertical">
 
                         <TextView
@@ -172,25 +179,33 @@
 
             </android.support.v7.widget.CardView>
 
-            <TextView
-                android:id="@+id/textView13"
-                android:layout_width="352dp"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="CONTINUE WITH 30 PUMPS AND 2 BREATHS UNTIL HELP ARRIVES "
-                android:textAlignment="center"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView16"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="NOTE: This ratio is the same for one-person and two-person CPR.  In two-person CPR the person pumping the chest stops while the other gives mouth-to-mouth breathing."
-                android:textAlignment="center" />
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="CONTINUE WITH 30 PUMPS AND 2 BREATHS UNTIL HELP ARRIVES "
+                    android:textAlignment="center"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="352dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:text="NOTE: This ratio is the same for one-person and two-person CPR.  In two-person CPR the person pumping the chest stops while the other gives mouth-to-mouth breathing."
+                    android:textAlignment="center" />
+
+            </LinearLayout>
 
         </LinearLayout>
-    </ScrollView>
+    </HorizontalScrollView>
 
 </LinearLayout>
