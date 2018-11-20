@@ -1,14 +1,186 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D3D3D3">
+    android:background="#D3D3D3"
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Bandage Styles"
-        android:textSize="24dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="189dp"
+                        app:srcCompat="@drawable/trianglebandana" />
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Triangle of Forehead is used to hold dressings on the foreheador scalp." />
+
+                    <TextView
+                        android:id="@+id/textView42"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Procedure: 1)Place middle of base of triangle so that edge is just above the eyebrows and bring apex backward, allowing it to dropover back of head. Bring ends of triangle backwards aboce ears. 2) Cross ends over apex at occiput, carry ends around forehead, and tie them in a square know. 3) Turn up apexof bandage toward topof head. Pin with safety pin or tuck in behind brossed part of bandage." />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="383dp"
+                        app:srcCompat="@drawable/triangleofchestandback" />
+
+                    <TextView
+                        android:id="@+id/textView46"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Triangle of Chest or Back is used to hold dressings on burns or wounds of chest or back." />
+
+                    <TextView
+                        android:id="@+id/textView48"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Procedure: 1)Drop apex of triangle over shoulder on injured side. Bring bandage down over chest (or back) to cover dressing, so that middle of base of bandage is directly below injury. Turn up a cuff at base. 2)Carry ends around and tie in a square know, leaving one end longer than the other. 3) Bring apex down and tie to long end of first knot." />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="416dp"
+                        app:srcCompat="@drawable/traingleofshoulder" />
+
+                    <TextView
+                        android:id="@+id/textView50"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Triangle of the shoulder is used to hold dressings on wounds of the shoulder. Two bandages are required, one a triangle and the other a cravat, roller bandage, or belt." />
+
+                    <TextView
+                        android:id="@+id/textView61"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Procedures: 1) Place center of cravat, roller bandage, or belt, at base of neck on injured side, and fasten just forward of opposite armpit. 2) Slide apex of open triangle under cravat at base of neck and place over dressing on injured shoulder and upper arm. Turn up cuff at base. 3) Bring ends around arm and tie. 4) Secure apex to cravat at neck by tucking in, or with safety pin." />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/traingleofhip" />
+
+                    <TextView
+                        android:id="@+id/textView62"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Triangle of the hip is used to hold dressings on the buttock or hip. It requires two bandages, one a triangle and the other a cravat, roller bandage, or belt." />
+
+                    <TextView
+                        android:id="@+id/textView64"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Procedures: 1) Fasten cravat, roller bandage, or belt around waist. 2) Place base of triangle below buttock, and slide apex under cravat at waist. Fold base upward to form cuff and carry ends of base around thigh. 3)Tie ends of base with square knot. Fasten apex to waist cravat with safety pin or by tucking under." />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/trianglehand" />
+
+                    <TextView
+                        android:id="@+id/textView65"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Triangle of hand is used to hold dressings of considerable size on the hand." />
+
+                    <TextView
+                        android:id="@+id/textView66"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Procedures: 1) Place middle of base of triangle well up on palmar surface of wrist. 2) Carry apex around ends of fingers. Cover back of hand to wrist, and tuck excess fullness of bandage into small pleats on each side of hand." />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
