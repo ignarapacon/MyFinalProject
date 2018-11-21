@@ -16,7 +16,7 @@
             android:id="@+id/nav_Injuries"
             android:icon="@drawable/ic_face"
             android:iconTint="@color/colorPrimary"
-            android:title="Disaster Related Injuries" />
+            android:title="Kinds of Disaster" />
 
         <item
             android:id="@+id/nav_LiftsCarries"
