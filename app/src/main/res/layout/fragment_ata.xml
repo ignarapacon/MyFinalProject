@@ -1,14 +1,205 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D3D3D3">
+    android:background="#D3D3D3"
+    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="About The App"
-        android:textSize="24dp" />
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp">
 
-</RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViews7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="PLUS: First Aid Matters "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textVicew7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="It is a Mobile Application that aims to educate its users in regards to Disaster risk reduction (DRR), a systematic approach to identifying, assessing and reducing the risks of disaster. " />
+
+            <TextView
+                android:id="@+id/textVxicew7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text=" > What is First Aid" />
+
+            <TextView
+                android:id="@+id/tesxtVzxicew7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text=" > Kinds of Natural Disaster" />
+
+            <TextView
+                android:id="@+id/tesxtVxiccew7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text=" > Different Lifts and Carries" />
+
+            <TextView
+                android:id="@+id/tesxtVdxicew7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text=" > Bandage Styles" />
+
+            <TextView
+                android:id="@+id/tesxtqVxicew7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text=" > How to Perform CPR" />
+
+            <TextView
+                android:id="@+id/tesxteVxicew7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text=" > Contents of a 72 Hour Kit" />
+
+            <TextView
+                android:id="@+id/twesxtVxicew7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text=" > Emergency Local Numbers" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:text="References:" />
+
+            <TextView
+                android:id="@+id/tazextView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="http://neuron.mefst.hr/docs/katedre/klinicke_vjestine/Dr%20Lojpurr%20FIRST%20AID%20TO%20THE%20INJURED.pdf
+"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/texxtView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="http://listverse.com/2007/10/20/top-10-natural-disasters/"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/tecxtView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="https://drive.google.com/file/d/1jogDMZQpebGg7rBCSHtpmTGlGgGITU-O/view"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/textVview56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="https://fas.org/irp/doddir/milmed/bandage.pdf"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/texbtVizew56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="http://depts.washington.edu/learncpr/quickcpr.html"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/texbxtView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="https://www.ci.healdsburg.ca.us/DocumentCenter/View/413/72--Hour-Kit-Checklist-PDF"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/texbtViaew56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="https://www.officialgazette.gov.ph/emergency-hotlines/"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/texbtaViaew56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="https://www.ustiics115/finalproject/fighting/"
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/texbtaVizaew56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="https://www.officially/maganda/nagcode/ng/ui"
+                android:textSize="8sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

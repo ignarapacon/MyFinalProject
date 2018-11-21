@@ -14,7 +14,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
@@ -452,104 +452,104 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="10dp" >
-
-            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp">
 
-                <TextView
-                    android:id="@+id/textView51"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
-                    android:text="Personal Documents and Money"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textSize="24sp"
-                    android:textStyle="bold|italic" />
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView52"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:layout_marginBottom="5dp"
-                    android:text="Place these items in a waterproof container!" />
+                    <TextView
+                        android:id="@+id/textView51"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="Personal Documents and Money"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="24sp"
+                        android:textStyle="bold|italic" />
 
-                <Switch
-                    android:id="@+id/switch61"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Scriptures" />
+                    <TextView
+                        android:id="@+id/textView52"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Place these items in a waterproof container!" />
 
-                <Switch
-                    android:id="@+id/switch62"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Contact information of family and friends" />
+                    <Switch
+                        android:id="@+id/switch61"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Scriptures" />
 
-                <Switch
-                    android:id="@+id/switch63"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Temple Recommend (make sure it’s in your wallet when you leave.)" />
+                    <Switch
+                        android:id="@+id/switch62"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Contact information of family and friends" />
 
-                <Switch
-                    android:id="@+id/switch64"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Copies of Legal Documents: Birth/Marriage Certificates, Wills, Vaccination Papers, Passports, Contracts, Insurance Policies, Bank Info, Genealogy, Pet, etc…)" />
+                    <Switch
+                        android:id="@+id/switch63"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Temple Recommend (make sure it’s in your wallet when you leave.)" />
 
-                <Switch
-                    android:id="@+id/switch65"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Cash: PHP 100-500 in small bills and coins" />
+                    <Switch
+                        android:id="@+id/switch64"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Copies of Legal Documents: Birth/Marriage Certificates, Wills, Vaccination Papers, Passports, Contracts, Insurance Policies, Bank Info, Genealogy, Pet, etc…)" />
 
-                <Switch
-                    android:id="@+id/switch66"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Credit Card" />
+                    <Switch
+                        android:id="@+id/switch65"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Cash: PHP 100-500 in small bills and coins" />
 
-                <Switch
-                    android:id="@+id/switch67"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Pre-Paid Phone Cards" />
+                    <Switch
+                        android:id="@+id/switch66"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Credit Card" />
 
-                <Switch
-                    android:id="@+id/switch68"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Extra Car and House Keys" />
+                    <Switch
+                        android:id="@+id/switch67"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Pre-Paid Phone Cards" />
 
-                <Switch
-                    android:id="@+id/switch69"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:text="Pictures of Family" />
+                    <Switch
+                        android:id="@+id/switch68"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Extra Car and House Keys" />
 
-            </LinearLayout>
+                    <Switch
+                        android:id="@+id/switch69"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:text="Pictures of Family" />
 
-        </android.support.v7.widget.CardView>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
@@ -557,7 +557,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
-                android:layout_marginBottom="10dp" >
+                android:layout_marginBottom="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -623,7 +623,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="20dp"
-                android:layout_marginBottom="10dp" >
+                android:layout_marginBottom="10dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -657,54 +657,54 @@
                         android:layout_margin="5dp"
                         android:text="Infant Needs (if applicable.)" />
 
-                    <TextView
-                        android:id="@+id/textView56"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_marginBottom="5dp"
-                        android:text="Remember, you can always add more to your Kit!" />
-
-                    <TextView
-                        android:id="@+id/textView57"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_marginBottom="5dp"
-                        android:text="Tip 1: Your Kit should be in a portable, easy to lift and carry, container located near an exit of your house" />
-
-                    <TextView
-                        android:id="@+id/textView58"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_marginBottom="5dp"
-                        android:text="Tip 2: Each family member should have their own 72 hour kit with food clothing and water. Distribute heavy items between kits. " />
-
-                    <TextView
-                        android:id="@+id/textView59"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_marginBottom="5dp"
-                        android:text="Tip 3: Keep a light source in the top of your kit so you can find it quickly in the dark." />
-
-                    <TextView
-                        android:id="@+id/textView60"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
-                        android:layout_marginBottom="5dp"
-                        android:text="Tip 4: Inspect your 72 hour kit at least twice a year. Check Medication, check children’s clothing for proper fit, and check expiration dates on batteries, light sticks, warm packs, food and water." />
-
-
-
-
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:ellipsize="end"
+                    android:text="SAVE"
+                    android:textColor="@color/ic_launcher_background" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:text="VIEW"
+                    android:textColor="@color/ic_launcher_background" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:onClick="Tip"
+                android:text="TIPS"
+                android:textColor="@color/ic_launcher_background" />
+
         </LinearLayout>
+
+
     </ScrollView>
 
 </LinearLayout>
